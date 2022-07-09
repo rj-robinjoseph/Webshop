@@ -25,7 +25,7 @@ function login() {
               <input type="password" placeholder="Enter your password." />
             </div>
             <p>Forget your password?</p>
-            <button>Login</button>
+            <button className="login">Login</button>
             <p className="or">OR</p>
           </form>
           <div className="signup-social">

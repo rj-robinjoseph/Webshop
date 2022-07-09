@@ -1,0 +1,29 @@
+@import "./colors";
+@import "./mixins";
+@import "./fonts";
+
+section {
+  background-color: $main-color;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+
+  .cat {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    gap: 2rem;
+
+    .all {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

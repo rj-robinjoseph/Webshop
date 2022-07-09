@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.scss";
 import App from "./App";
+import Login from "./pages/Login";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -10,6 +11,7 @@ root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   </Router>
 );

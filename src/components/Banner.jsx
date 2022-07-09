@@ -21,9 +21,10 @@ function Banner() {
           centeredSlides={true}
           autoplay={{
             delay: 3000,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
           }}
           pagination={{
+            type: "none",
             clickable: true,
           }}
           navigation={true}

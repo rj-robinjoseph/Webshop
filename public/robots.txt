@@ -1,3 +1,28 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+My Viewport size : 1536px × 760px
+
+1536px = 40.64cm
+
+760px = 20.108333333cm
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+Breakpoints
+
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+
+<Link to="/" style={{ textDecoration: "none" }}></Link>

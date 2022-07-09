@@ -2,6 +2,14 @@
 @import "./mixins";
 @import "./fonts";
 
+a {
+  color: $secondary-color;
+}
+
+a:hover {
+  color: $dominant-color;
+}
+
 .login-wrapper {
   width: 100vw;
   height: 100vh;

@@ -1,12 +1,19 @@
 import React from "react";
 import "../styles/Login.scss";
-import Main from "../assets/main.jpg";
+import Facebook from "../assets/facebook.png";
+import Google from "../assets/google.png";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import { Link } from "react-router-dom";
 
 function login() {
   return (
     <div className="login-wrapper">
       <div className="container">
         <div className="left-container">
+          <Link to="/">
+            <ArrowBackIosIcon className="back-arrow" />
+          </Link>
+
           <form action="">
             <h1>Welcome Back!</h1>
             <div className="input">
@@ -19,10 +26,15 @@ function login() {
             </div>
             <p>Forget your password?</p>
             <button>Login</button>
+            <p className="or">OR</p>
           </form>
-          <p>OR</p>
-          <button>Facebook</button>
-          <button>Google</button>
+          <div className="signup-social">
+            <div className="social-login">
+              <img src={Facebook} alt="" className="social" />
+              <img src={Google} alt="" className="social" />
+            </div>
+            <p className="signup">Not a member yet? Sign Up!</p>
+          </div>
         </div>
         <div className="right-container">
           <h1>We will give you the best.</h1>

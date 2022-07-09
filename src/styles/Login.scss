@@ -14,6 +14,11 @@
     .left-container {
       flex: 1;
 
+      .back-arrow {
+        margin-left: 50px;
+        transform: scale(1.2);
+      }
+
       form {
         height: 300px;
         margin: 4rem;
@@ -48,6 +53,32 @@
       button {
         margin-top: 30px;
         padding: 10px 155px;
+      }
+
+      .or {
+        margin-top: 20px;
+        margin-left: unset;
+      }
+
+      .signup-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .social-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .social {
+          margin: 30px 20px;
+          width: 50px;
+        }
+      }
+      .signup {
+        margin-left: unset;
       }
     }
 

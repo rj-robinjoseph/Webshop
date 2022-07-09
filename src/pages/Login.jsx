@@ -10,7 +10,7 @@ function login() {
     <div className="login-wrapper">
       <div className="container">
         <div className="left-container">
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <ArrowBackIosIcon className="back-arrow" />
           </Link>
 
@@ -33,7 +33,12 @@ function login() {
               <img src={Facebook} alt="" className="social" />
               <img src={Google} alt="" className="social" />
             </div>
-            <p className="signup">Not a member yet? Sign Up!</p>
+            <p className="signup">
+              Not a member yet?{" "}
+              <Link to="/" style={{ textDecoration: "none" }}>
+                Sign Up!
+              </Link>
+            </p>
           </div>
         </div>
         <div className="right-container">

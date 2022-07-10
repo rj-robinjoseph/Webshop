@@ -40,10 +40,42 @@ function Banner() {
               <p>Curated Collections.</p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="slide-2">Slide 2</SwiperSlide>
-          <SwiperSlide className="slide-3">Slide 3</SwiperSlide>
-          <SwiperSlide className="slide-4">Slide 4</SwiperSlide>
-          <SwiperSlide className="slide-5">Slide 5</SwiperSlide>
+          <SwiperSlide className="slide-2">
+            <div className="content">
+              <h1>Latest Collections</h1>
+              <button>Explore</button>
+            </div>
+            <div className="bottom-txt">
+              <p>Curated Collections.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slide-3">
+            <div className="content">
+              <h1>Latest Collections</h1>
+              <button>Explore</button>
+            </div>
+            <div className="bottom-txt">
+              <p>Curated Collections.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slide-4">
+            <div className="content">
+              <h1>Latest Collections</h1>
+              <button>Explore</button>
+            </div>
+            <div className="bottom-txt">
+              <p>Curated Collections.</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slide-5">
+            <div className="content">
+              <h1>Latest Collections</h1>
+              <button>Explore</button>
+            </div>
+            <div className="bottom-txt">
+              <p>Curated Collections.</p>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </>
     </div>

@@ -30,8 +30,11 @@
     }
     .logo {
       text-transform: uppercase;
-      font-weight: bolder;
-      margin-right: 3.5rem;
+      margin-right: 3rem;
+
+      img {
+        width: 260px;
+      }
     }
     .right {
       @include flex-center;

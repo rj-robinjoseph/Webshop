@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.scss";
-import { Search, ShoppingBasket } from "@mui/icons-material";
+import { Search } from "@mui/icons-material";
+import ShoppingCartTwoToneIcon from "@mui/icons-material/ShoppingCartTwoTone";
 
 function Header() {
   return (
@@ -32,7 +33,9 @@ function Header() {
             <button>
               <Link to="signup">Sign Up</Link>
             </button>
-            <ShoppingBasket className="basket" />
+            {/* <ShoppingBasket className="basket" /> */}
+            {/* <ShoppingBagOutlinedIcon className="basket" /> */}
+            <ShoppingCartTwoToneIcon className="basket" />
           </div>
         </div>
       </nav>

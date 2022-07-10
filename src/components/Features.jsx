@@ -9,7 +9,7 @@ function Features() {
   return (
     <div>
       <div className="features-container">
-        <h1>Features</h1>
+        <h1>Our Features</h1>
         <div className="row container">
           <div className="col">
             <div className="icon">

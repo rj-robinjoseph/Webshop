@@ -10,7 +10,7 @@ function Features() {
     <div>
       <div className="features-container">
         <h1>Our Features</h1>
-        <div className="row container">
+        <div className="row features-main-container">
           <div className="col">
             <div className="icon">
               <CheckBoxIcon />

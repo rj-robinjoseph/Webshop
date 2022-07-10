@@ -2,19 +2,19 @@
 @import "./mixins";
 @import "./fonts";
 
-.container {
+.features-main-container {
   max-width: 120rem;
   padding: 0 3rem;
   margin: auto;
 }
 
 @media (min-width: 1600px) {
-  .container {
+  .features-main-container {
     max-width: 160rem;
   }
 }
 @media (max-width: 567px) {
-  .container {
+  .features-main-container {
     padding: 0 1rem;
   }
 }

@@ -7,10 +7,10 @@ function Deals() {
       <h1>Best Deals</h1>
       <div className="deals">
         <div className="deal">
-          <img
+          {/* <img
             src="https://unsplash.com/photos/SLU0U_a6fbQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mjh8fHdhdGNoZXN8ZW58MHx8fHwxNjU3NDQwMDU0&force=true&w=1920"
             alt=""
-          />
+          /> */}
           <div className="desc">
             <h2 className="deal-heading">5% OFF</h2>
             <p className="deal-desc">Explore the best deals on Watches.</p>

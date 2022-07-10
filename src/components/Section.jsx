@@ -11,7 +11,7 @@ function Section() {
             alt=""
           />
           <p>Selected for Men.</p>
-          <h1>Mens Collection</h1>
+          <h2>Mens Collection</h2>
         </div>
         <div className="all">
           <img
@@ -19,7 +19,7 @@ function Section() {
             alt=""
           />
           <p>Unisex</p>
-          <h1>Explore Jeans</h1>
+          <h2>Explore Jeans</h2>
         </div>
         <div className="all">
           <img
@@ -27,7 +27,7 @@ function Section() {
             alt=""
           />
           <p>Selected for Women</p>
-          <h1>Women Collection</h1>
+          <h2>Women Collection</h2>
         </div>
         <div className="all">
           <img
@@ -35,7 +35,7 @@ function Section() {
             alt=""
           />
           <p>For Everyone</p>
-          <h1>Sneaker Hub</h1>
+          <h2>Sneaker Hub</h2>
         </div>
       </div>
     </section>

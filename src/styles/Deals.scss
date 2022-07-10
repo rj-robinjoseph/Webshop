@@ -1,0 +1,53 @@
+@import "./colors";
+@import "./mixins";
+@import "./fonts";
+
+.deals-container {
+  background-color: $main-color;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+
+  h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .deals {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+    .deal {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .desc {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+
+        h2 {
+          font-size: 40px;
+          color: $main-color;
+        }
+        p {
+          color: $main-color;
+        }
+      }
+    }
+    .deal:nth-child(1) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
+}

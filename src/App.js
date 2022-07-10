@@ -1,5 +1,6 @@
 import "./App.scss";
 import Banner from "./components/Banner";
+import Deals from "./components/Deals";
 import Featured from "./components/Featured";
 import Header from "./components/Header";
 import Section from "./components/Section";
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Section />
       <Featured />
+      <Deals />
     </div>
   );
 }

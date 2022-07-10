@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.scss";
 import { Search } from "@mui/icons-material";
+import Logo from "../assets/logo.png";
 import ShoppingCartTwoToneIcon from "@mui/icons-material/ShoppingCartTwoTone";
 
 function Header() {
@@ -19,7 +20,8 @@ function Header() {
           </li>
         </ul>
         <div className="logo">
-          <h1>Webshop</h1>
+          {/* <h1>Webshop</h1> */}
+          <img src={Logo} alt="" />
         </div>
         <div className="right">
           <div className="search">

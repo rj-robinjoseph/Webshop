@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Categories from "./components/Categories";
 import Deals from "./components/Deals";
 import Featured from "./components/Featured";
+import Features from "./components/Features";
 import Header from "./components/Header";
 import Section from "./components/Section";
 
@@ -15,6 +16,7 @@ function App() {
       <Featured />
       <Deals />
       <Categories />
+      <Features />
     </div>
   );
 }

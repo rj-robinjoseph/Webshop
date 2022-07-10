@@ -1,3 +1,139 @@
 @import "./colors";
 @import "./mixins";
 @import "./fonts";
+
+.cat-container {
+  background-color: $main-color;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+
+  h1 {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .swiper {
+    width: 100%;
+    // height: 175px;
+    height: calc((100vw - 30px) / 7);
+    margin-left: auto;
+    margin-right: auto;
+
+    .swiper-button-prev {
+      background-image: url(../assets/left.png);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+    }
+
+    .swiper-button-prev::after {
+      display: none;
+    }
+
+    .swiper-button-next {
+      background-image: url(../assets/right.png);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+    }
+
+    .swiper-button-next::after {
+      display: none;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $gray-color;
+      color: $main-color;
+      border-radius: 50%;
+      //   height: calc(100% - 20px) !important;
+      height: 100%;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide:nth-child(1) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Men.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(2) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Women.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(3) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Shoes.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(4) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Watch.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(5) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Jeans.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(6) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Shirts.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(7) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Tops.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(8) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Tshirt.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(9) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Jacket.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .swiper-slide:nth-child(10) {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url(../assets/Bags.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}

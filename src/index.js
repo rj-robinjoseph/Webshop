@@ -5,6 +5,7 @@ import "./index.scss";
 import App from "./App";
 import Login from "./pages/Login";
 import reportWebVitals from "./reportWebVitals";
+import "swiper/css/bundle";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

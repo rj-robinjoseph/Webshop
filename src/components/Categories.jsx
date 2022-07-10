@@ -25,16 +25,16 @@ function Categories() {
         modules={[Grid, Pagination, Autoplay, Navigation]}
         className="swiper"
       >
-        <SwiperSlide className="swiper-slide">Slide 1</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 2</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 3</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 4</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 5</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 6</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 7</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 8</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 9</SwiperSlide>
-        <SwiperSlide className="swiper-slide">Slide 10</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Men</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Women</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Shoes</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Watch</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Jeans</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Shirts</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Tops</SwiperSlide>
+        <SwiperSlide className="swiper-slide">T-shirts</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Jackets</SwiperSlide>
+        <SwiperSlide className="swiper-slide">Bags</SwiperSlide>
       </Swiper>
     </div>
   );

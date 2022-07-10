@@ -42,7 +42,7 @@ function login() {
           </div>
         </div>
         <div className="right-container">
-          <h1>We will give you the best.</h1>
+          <h1>Explore the best collections.</h1>
         </div>
       </div>
     </div>

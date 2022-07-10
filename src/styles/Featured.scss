@@ -2,19 +2,24 @@
 @import "./mixins";
 @import "./fonts";
 
-section {
+.featured-container {
   background-color: $main-color;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
 
-  .cat {
+  h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .products {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 320px);
-    gap: 2rem;
+    grid-template-columns: repeat(4, 250px);
+    gap: 1.5rem 5rem;
 
-    .all {
+    .product {
       width: 100%;
       height: 100%;
       cursor: pointer;
@@ -23,12 +28,13 @@ section {
         width: 100%;
         height: 80%;
         object-fit: cover;
+        border-radius: 10px;
       }
-      p {
-        font-family: $font-michroma;
-      }
-      h1 {
-        font-family: $font-michroma;
+
+      .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
     }
   }

@@ -51,6 +51,10 @@ a:hover {
           padding: 10px 170px 10px 5px;
         }
 
+        input::placeholder {
+          font-size: 12px;
+        }
+
         p {
           margin-bottom: 20px;
           font-size: 14px;

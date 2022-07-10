@@ -21,7 +21,7 @@
           text-decoration: none;
           color: $secondary-color;
           margin: 0 1rem;
-          font-size: 13px;
+          font-size: 15px;
         }
         .highlight {
           color: $dominant-color;
@@ -31,7 +31,7 @@
     .logo {
       text-transform: uppercase;
       font-weight: bolder;
-      margin-right: 2.5rem;
+      margin-right: 3.5rem;
     }
     .right {
       @include flex-center;
@@ -45,7 +45,7 @@
         background-color: $domi-color;
 
         .search-icon {
-          font-size: 18px;
+          font-size: 20px;
           cursor: pointer;
           color: $secondary-color;
         }
@@ -54,7 +54,7 @@
           background: none;
           border: none;
           cursor: pointer;
-          font-size: 13px;
+          font-size: 15px;
           font-weight: 400;
         }
       }
@@ -71,7 +71,7 @@
           a {
             text-decoration: none;
             color: $secondary-color;
-            font-size: 13px;
+            font-size: 15px;
           }
         }
         .basket {

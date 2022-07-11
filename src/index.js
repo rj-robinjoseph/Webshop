@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.scss";
 import App from "./App";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import reportWebVitals from "./reportWebVitals";
 import "swiper/css/bundle";
 
@@ -13,6 +14,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
     </Routes>
   </Router>
 );

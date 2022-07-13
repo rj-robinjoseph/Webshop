@@ -1,0 +1,68 @@
+@import "./colors";
+@import "./mixins";
+@import "./fonts";
+
+.categories {
+  width: 100vw;
+  height: 55px;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .swiper {
+    width: 100%;
+    height: 30px;
+    margin: 0 10px;
+
+    .swiper-button-prev {
+      background-image: url(../assets/left-black.png);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+    }
+
+    .swiper-button-prev::after {
+      display: none;
+    }
+
+    .swiper-button-next {
+      background-image: url(../assets/right-black.png);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+    }
+
+    .swiper-button-next::after {
+      display: none;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 14px;
+      background: $main-color;
+      border: 1px solid #d1d1d1;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      border-radius: 8px;
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

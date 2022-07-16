@@ -13,6 +13,7 @@ function Header() {
           <li className="li-items">
             <Link to="/men">Men</Link>
             <Link to="/men">Women</Link>
+            <Link to="/men">Shop</Link>
             <Link to="/collections">Top Collection</Link>
             <Link to="/offers" className="highlight">
               Best Deals

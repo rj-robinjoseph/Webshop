@@ -100,5 +100,118 @@
         opacity: 1;
       }
     }
+
+    .product-info {
+      padding: 20px;
+
+      h1 {
+        margin: 30px 0;
+        font-weight: 900;
+      }
+
+      .product-info-detail {
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+
+        span {
+          font-weight: 600;
+          color: gray;
+          margin-right: 10px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        svg {
+          font-size: 20px;
+          color: gold;
+        }
+      }
+
+      .product-description {
+        font-size: 18px;
+        text-align: justify;
+        margin: 30px 0;
+      }
+
+      .product-info-price {
+        font-weight: 600;
+        font-size: 30px;
+        color: $red-color;
+        margin: 30px 0;
+      }
+
+      .product-quantity-wrapper {
+        display: flex;
+        align-items: center;
+        margin: 30px 0;
+      }
+
+      .product-quantity {
+        margin: 0 10px;
+        font-size: 25px;
+      }
+
+      .product-quantity-btn {
+        height: 30px;
+        width: 30px;
+        background-color: gray;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .product-quantity-btn i {
+        font-size: 20px;
+        color: var(--main-bg-color);
+      }
+
+      .btns {
+        display: flex;
+
+        .btn-flat {
+          display: inline-block;
+          border: 2px solid $secondary-color;
+          background-color: $secondary-color;
+          color: $main-color;
+          padding: 15px 35px;
+          font-size: 15px;
+          outline: 0;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-right: 30px;
+        }
+
+        .btn-hover {
+          transition: all 0.3s ease-in-out;
+        }
+
+        .btn-hover:hover {
+          background-color: $main-color;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+    .box-header {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }

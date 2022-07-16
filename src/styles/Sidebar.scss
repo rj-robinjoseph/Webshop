@@ -4,11 +4,62 @@
 
 .sidebar {
   background: $cream-color;
-  width: 15%;
+  width: 20%;
   height: 100vh;
   position: fixed;
   top: 0;
   padding-left: 2%;
   padding-top: 80px;
   z-index: -1;
+
+  .breadcumb {
+    font-weight: 600;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    a {
+      text-transform: capitalize;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $red-color;
+    }
+
+    span {
+      margin: 0 15px;
+    }
+  }
+
+  .box {
+    padding: 20px;
+
+    .filter-header {
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+      padding-top: 15px;
+
+      li {
+        padding: 10px 0;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.rating {
+  color: gold;
+  margin-left: 10px;
+
+  svg {
+    font-size: 20px;
+  }
 }

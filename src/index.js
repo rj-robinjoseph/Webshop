@@ -8,6 +8,7 @@ import Signup from "./pages/Signup";
 import reportWebVitals from "./reportWebVitals";
 import "swiper/css/bundle";
 import Products from "./pages/Products";
+import Product from "./pages/Product";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/products" element={<Products />} />
+      <Route path="/product" element={<Product />} />
     </Routes>
   </Router>
 );
